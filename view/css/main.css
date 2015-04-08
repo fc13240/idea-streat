@@ -1,0 +1,685 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	text-align: center;
+}
+footer{
+	margin-top: 7%;
+}
+/**************图片展示控件****************/
+#taobaoSlide
+{
+	margin:auto;
+}
+.showimage
+{
+	width:430px;
+	height:420px;
+}
+/**************标头****************/
+#head
+{
+	background-image:url(../images/head.png);
+	background-repeat: repeat-x;
+	height:90px;
+	min-width:1001px;
+}
+#headContent{
+	width:1000px;
+	margin:auto;
+}
+
+/**************标头导航条***************/
+#nav{
+	width:480px;
+	float:right;
+}
+#nav ul
+{
+	 list-style:none; 
+     margin: 0px; 
+     padding: 0px; 
+	 height:88px;
+	 line-height: 88px;
+	 color:#FFF;
+}  
+#nav li
+{
+	float:right;
+	font-size:15px;
+	height:88px;
+	width:auto;
+	display: inline;
+	margin-right:8px;
+	margin-left:8px;
+}
+#nav li a
+{
+	text-decoration: none;
+	color: #FFF;
+	font-family:Verdana, Geneva, sans-serif;	
+}
+#nav li a:hover
+{
+	text-decoration: none;
+	color: #666;
+	font-family: 微软雅黑;
+}
+.separtLine{
+	background-image: url(../images/separtLine.png);
+	background-position: center center;
+	height:15px;
+	width:2px;
+	background-repeat: no-repeat;
+}
+/*******************网页标题栏****************************/
+.wi_title{
+	border: 1px solid #fff;
+    border-left: 0;
+    border-right: 0;
+    display: inline-block;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 108px;
+    letter-spacing: 2px;
+    position: relative;
+    width: 100%;
+}
+.desc{
+	margin-top: 8%;
+	font-size: 17px;
+	text-align: center;
+	position: relative;
+	width: 90%;
+}
+#logo{
+	margin-top: 5%;
+	margin-left:30%;
+	margin-bottom: 5%;
+    position: relative;
+    text-align: center;
+    width: 40%;
+}
+#visit-lab-website{
+	margin-top: 5%;
+	position: relative;
+	width: 90%;
+}
+.navbar-wi .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+/*************************网页主体*********************************/
+#main{
+	margin-top: 7%;
+	position: relative;
+}
+img.nexus5{
+    position: relative;
+    width:85%;
+    margin-top:10%;
+    margin-left:30%
+}
+#screen-pic-div{
+	position: absolute;
+	top: 14%;
+	left: 39%;
+}
+#screen-pic-ul{
+	margin: 0;
+	padding: 0;
+}
+#screen-pic-ul li{
+	list-style: none;
+    float: left;
+}
+#screen-pic-ul li img{
+	width: 100%;
+}
+/**************************中间的介绍卡片********************************/
+#card1{
+	background-image: url("../image/banner-b.jpg");
+	opacity: 0.8;
+}
+#card2{
+	background-image: url("../image/banner-c.jpg");
+	opacity: 0.8;
+}
+#card3{
+	background-image: url("../image/banner-d.jpg");
+	opacity: 0.8;
+}
+#card4{
+	background-image: url("../image/banner-footer.jpg");
+	opacity: 0.8;
+	height: 25em;
+}
+.banner-info{
+	margin-top: 20%;
+	float: right;
+}
+/**************网页中间主体外部轮廓，主要负责固定高度，设置灰色背景***************/
+#contentOut
+{
+	background:#dddddd;
+	height:450px;
+	min-width:1001px;
+}
+/**************网页中间主体内部轮廓，主要负责限定宽度***************/
+#content
+{
+	width:1000px;
+	margin:auto;
+	/*border: 1px solid #dddddd;*/
+	height:auto;
+}
+/*************左部图片展示的框架***************/
+#leftPart{
+	float:left;
+	width:430px;
+}
+/*************右部宣传包括下载链接的框架***************/
+#rigthPart{
+	margin-left:430px;
+	width:570px;
+	/*border: 1px solid #333;*/
+}
+/*************右部宣传标题**************/
+.title{
+
+}
+/*************右部下载链接**************/
+
+.list-group-item{
+	border-radius: 2;
+    background: rgba(30,30,30,.6);
+    color: #fff;
+    border: 0;
+    margin-bottom: 1px;
+    width: auto;
+
+}
+.download{
+	margin-top:10px;
+	margin-bottom:10px;
+	background-image: url(../images/wi_download.png);
+	background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	height:50px;
+	width:167px;
+
+}
+
+
+div.download a{
+	background-image: url(../images/wi_download.png);
+	height:50px;
+	width:167px;
+	display:block;
+	cursor:hand;
+}
+div.download a:hover{
+	background-image: url(../images/wi_download_float.png);
+	height:50px;
+	width:167px;
+}
+
+.iphonedownload{
+	margin-top:10px;
+	margin-bottom:5px;
+	background-image: url(../images/down/download.png);
+	background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	height:50px;
+	width:130px;
+}
+#iphoneVersionBoxLeft
+{
+	float:left;
+	padding-left:15px;
+	width:130px;
+}
+#iphoneVersionBoxRight
+{
+	float:right;
+	padding-right:15px;
+	width:130px;
+}
+div.iphonedownload a{
+	background-image: url(../images/down/download.png);
+	height:50px;
+	width:130px;
+	display:block;
+	cursor:hand;
+}
+div.iphonedownload a:hover{
+	background-image: url(../images/down/download_float.png);
+	height:50px;
+	width:130px;
+}
+
+
+.ipaddownload{
+	margin-top:10px;
+	margin-bottom:10px;
+	background-image: url(../images/down/download.png);
+	background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	height:50px;
+	width:130px;
+
+}
+
+.androiddownload{
+	margin-top:10px;
+	margin-bottom:10px;
+	background-image: url(../images/down/download.png);
+	background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	height:50px;
+	width:130px;
+}
+
+.androiddownload_wangpan{
+	margin-top:10px;
+	margin-bottom:10px;
+	background-image: url(../images/down/download_wangpan.png);
+	background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	height:50px;
+	width:130px;
+}
+
+div.androiddownload_wangpan a{
+	background-image: url(../images/down/download_wangpan.png);
+	height:50px;
+	width:130px;
+	display:block;
+	cursor:hand;
+}
+div.androiddownload_wangpan a:hover{
+	background-image: url(../images/down/download_wangpan_float.png);
+	height:50px;
+	width:130px;
+}
+
+div.androiddownload a{
+	background-image: url(../images/down/download.png);
+	height:50px;
+	width:130px;
+	display:block;
+	cursor:hand;
+}
+div.androiddownload a:hover{
+	background-image: url(../images/down/download_float.png);
+	height:50px;
+	width:130px;
+}
+
+div.ipaddownload a{
+	background-image: url(../images/down/download.png);
+	height:50px;
+	width:130px;
+	display:block;
+	cursor:hand;
+}
+div.ipaddownload a:hover{
+	background-image: url(../images/down/download_float.png);
+	height:50px;
+	width:130px;
+}
+
+
+
+#zanzhu_logo a
+{	
+	background-image: url(../images/zanzhu.png);
+	width:60px;
+	height:25px;
+	display:block;
+	cursor:hand;
+}
+#zanzhu_logo a:hover
+{	
+	background-image: url(../images/zanzhu_float.png);
+	width:60px;
+	height:25px;
+}
+/*************下部中间部分的输入法描述*************/
+#description
+{
+	padding-top:30px;
+	width:1000px;
+	margin:auto;
+}
+/*************下左部的友情链接************/
+#box_left
+{
+	float:left;
+	width:300px;
+	height:180px
+}
+#nav_youqing ul
+{
+	list-style:none; 
+	 height:20px;
+}
+#nav_youqing ul li
+{
+	font-size:13px;
+	margin-top:5px;
+}
+#nav_youqing li a 
+{
+	text-decoration: none;
+	color: #666;
+}
+#nav_youqing li a:hover
+{
+	text-decoration: none;
+	color: #333;
+}
+/*************下右部的视频链接************/
+#box_right
+{
+	float:right;
+	width:300px;
+	height:180px;
+}
+/*************赞助窗口************/
+#zanzhu_titile
+{
+	float:left;
+	width:50px;
+	margin:0px;
+}
+#zanzhu_logo
+{
+	width:60px;
+	height:25px;
+	background-image: url(../images/zanzhu.png);
+	position: absolute;
+	/*left: 930px;
+	top: 585px;*/
+	left: 48px;;
+	top: -3px
+}
+
+#zanzhu
+{	
+	padding-left:20px;
+	padding-right:20px;
+}
+.box_content
+{	
+	padding-left:20px;
+	padding-right:20px;
+}
+/*************下部的圆角框头部，主要用于加载图片************/
+.box_head
+{
+	margin-top:0px;
+	width:300px;
+	height:18px;
+	background-image:url(../images/box_head.png);
+}
+/*************下部的圆角框主体，主要用于加载背景图片***********/
+.box_body
+{
+	background-image: url(../images/box_body.png);
+	background-repeat: repeat-y;	
+	width:300px;
+	height:140px;
+}
+/*************下部的圆角框标题部分************/
+.box_title
+{
+	color: #666;
+	font-size: 18px;
+	margin-left:10px;
+	position:relative;
+	/*height:30px;*/
+}
+/*************下部的圆角框尾部，用于加载图片************/
+.box_foot
+{
+	bottom: 0px;
+	width:300px;
+	height:18px;
+	background-image:url(../images/box_foot.png);
+	position: relative;
+}
+
+
+.box_head_middle
+{
+	margin-top:0px;
+	width:340px;
+	height:19px;
+	background-image:url(../images/middle_box_head.png);
+}
+/*************下部的圆角框主体，主要用于加载背景图片***********/
+.box_body_middle
+{
+	background-image: url(../images/middle_box_middle.png);
+	background-repeat: repeat-y;	
+	width:340px;
+	height:150px;
+}
+/*************下部的圆角框标题部分************/
+.box_title_middle
+{
+	color: #666;
+	font-size: 18px;
+	margin-left:10px;
+	position:relative;
+	/*height:30px;*/
+}
+/*************下部的圆角框尾部，用于加载图片************/
+.box_foot_middle
+{
+	bottom: 0px;
+	width:340px;
+	height:22px;
+	background-image:url(../images/middle_box_foot.png);
+	position: relative;
+}
+
+/*************下部的圆角框的主要内容区************/
+#box_middle
+{
+	width:340px;
+	margin-left:auto;
+	margin-right:auto;
+	height:180px;
+}
+/*************整个网页的页脚部分，用于注明版权信息************/
+#foot{
+	clear:both;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	margin-top:20px;
+	padding-top:20px;
+	text-align:center;
+	color: #666;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CACACA;
+	border-left-color: #999;
+	font-size: 13px;
+}
+
+/*************输入法介绍段落的样式************/
+h1
+{
+	font-size: 3vm;
+	color: #fff;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+h2
+{
+	font-size: 3vm;
+	color: #FFF;
+	line-height:20px;
+	font-weight: lighter;
+	text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
+}
+h3
+{
+	font-size: 1.2vm;
+	color: yellow;	
+	margin-bottom:5px;
+}
+h4
+{
+	margin-top:5px;
+	font-size: 1vm;
+	color: yellow;
+	font-weight: normal;
+	line-height:16px;
+}
+h5
+{
+	margin-left:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+	color: #666;
+	font-size: 14px;
+	font-weight: normal;
+	line-height:20px;
+}
+
+
+
+
+
+
+
+
+
+/*************下载页样式**********/
+.contentBox
+{
+	border: 1px solid #CCC;	
+	height:auto;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	//min-height:500px;
+}
+.contentBox_head
+{
+	background-color: #dddddd;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	height:50px;
+}
+.contentBox_head_title
+{
+	margin-left:20px;
+	height:50px;
+	font-size: 20px;
+	color: #333;
+	vertical-align: middle;
+	line-height:50px;
+}
+
+#downBox1
+{
+	width:332px;
+	height:auto;
+	float:left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #dddddd;
+}
+#downBox2
+{
+	width:332px;
+	float:right;
+	height:auto;
+}
+
+#downBox3
+{
+	width:332px;
+	margin-left:333px;
+	height:auto;
+	
+	
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #dddddd;
+}
+
+
+.downDescription
+{
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom:0px;
+}
+.downBoxImage
+{
+	width:90px;
+	margin:auto;
+}
+
+.downBoxLinkOther
+{
+	margin-left:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.downBoxLinkOther a,.contentBox_body a
+{
+	color: #666;
+	text-decoration: none;
+}
+.downBoxLinkOther a:hover,.contentBox_body a:hover
+{
+	color: #F63;
+	text-decoration: none;
+}
+.contentBox_body_description
+{
+	margin-left:40px;
+}
+
+.versionDescription
+{
+	text-align: center;
+	font-size: 12px;
+	color:#666;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+
+#instruction_catalogue
+{
+	width:200px;
+	float:left;
+}
+#instruction_content
+{
+	width:799px;
+	height:auto;
+	margin-left:200px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCC;
+}
