@@ -1,4 +1,4 @@
-<!doctype>
+﻿<!doctype>
 <html lang="zh-CN">
 	<head>
   <meta charset="UTF-8" />
@@ -19,10 +19,9 @@
   <script>
      var _hmt = _hmt || [];
   </script>
-
 	</head>
 	<body class="home-template custom-bg" >
-    <nav class="navbar navbar-wi" role="navigation">
+    <nav class="navbar navbar-wi" role="navigation" style="margin: 0px; padding: 0px;">
       <div class="container-fluid">
         <div class="navbar-header">
         <!--在移动端页面的展示-->
@@ -32,40 +31,46 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-             <a class="navbar-brand" href="/"><img width="50" src="image/logo.png" alt="logo"></a>
           </div>
           <!--在电脑大屏幕上的展示-->
-              <div class=" navbar-collapse collapse" id="global-navbar">
-               <ul class="nav navbar-nav" >
+              <div class=" navbar-collapse collapse">
+                <ul class="nav navbar-nav" >
+                  <li><a class="navbar-brand" href="#">Idea Street</a></li>
                   <li><a href="/">首页</a></li>
-                  <li><a href="http://weibo.com/wiim" onClick="_hmt.push(["_trackEvent", "navbar", "click","bbs"])">创意提交</a></li>
-                  <li><a href="manuel.html" onClick="_hmt.push(["_trackEvent", "navbar", "click","cheatsheet"])">周五佳</a></li>
-                  <li><a href="manuel.html" onClick="_hmt.push(["_trackEvent", "navbar", "click","cheatsheet"])">关于我们</a></li>
-          </ul>
-          <p class="navbar-text navbar-right" >用户登录</p>
+                  <li><a href="submit.html">创意提交</a></li>
+                  <li><a href="top5.html">周五佳</a></li>
+         		</ul>
+          		<ul class="nav navbar-nav navbar-right">
+                    <!--<li><a href="#">注册</a></li>	-->
+					<li><a href="#">登录</a></li>		
+				</ul>
           </div>
-
       </div>
+        
    </nav>
+        <img src="images/header创意街副本.jpg" style="width:100%">
 
-<header id="logo" class="container">
-    <div class="row">
-		    <h1 id="list-float-title" class="wi_title">
-		    	创 意 街
-		    </h1>
-		    <h2 class="desc">
-		    	你还在抱怨什么<br/>你还在渴望什么<br/>尽管发挥自己的想象<br/>让互联网充分丰富我们的大学人生
-		    </h2>
-            <div id="visit-lab-website">
-               <a class="btn btn-primary" href="http://lab.wicld.com" role="button">友情链接网站</a>
-               <a class="btn btn-primary" href="http://lab.wicld.com" role="button">友情链接网站</a>
-               <a class="btn btn-primary" href="http://lab.wicld.com" role="button">友情链接网站</a>
-               <a class="btn btn-primary" href="http://lab.wicld.com" role="button">友情链接网站</a>
+        <div class="jumbotron" style="background-image: url(images/idea-homepage.jpg); background-repeat: repeat-x; background-position-x: 0%; " >
+            <div class="" id="logo">
+                <h1 class="wi_title" style="color:antiquewhite">
+                    创 意 街
+                </h1>
             </div>
-         </div>
-    </div>
-</header>
-
+            <div align="left">
+                <p style="margin-left:300px">
+                    <b>你还在抱怨什么</b>
+                </p>
+                <p style ="margin-left:800px">
+                    你还在渴望什么<br />
+                </p>
+                <p style="margin-left:200px">
+                    尽管发挥自己的想象<br /><br />
+                </p>
+                <p style="margin-left:900px">
+                    <b>让互联网充分丰富我们的大学人生</b>
+                </p>
+            </div>
+        </div>
 <main id="main" class="container" role="main">
     <div class="row">
         <div class="col-sm-9 col-sm-push-1">
@@ -133,25 +138,15 @@
                    <h1>更多创意功能，等你下载试用！</h1>
                    </div>
             </div>
-
-            <article>
-                  <h1>WI输入法</h1>
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WI输入法是由哈尔滨工业大学计算机学院语言技术研究中心网络智能研究室开发的iPhone、iPad、iPod Touch、Android等平台上的智能拼音语句输入法。它支持语句输入，智能纠错，模糊音输入，简拼输入以及多种双拼输入；荣获2010中国互联网最佳技术创新产品提名奖。</p>
-            </article>
             </div>
 
             <div class="col-sm-2 col-sm-push-1">
             <div class="list-group tag-sidebar">
-                <a href="" class="list-group-item" style="color:#F90"><span class="glyphicon glyphicon-arrow-down"></span> 立即下载</a>
-                <a href="" class="list-group-item" style="color:#F90"><span class="glyphicon glyphicon-arrow-down"></span> WI微逸版</a>
-                <a href="http://www.hit.edu.cn/" class="list-group-item" style="color:#F90">哈尔滨工业大学</a>
-                <a href="http://wi.hit.edu.cn/dev/" class="list-group-item" style="color:#F90">网络智能研究室</a>
-                <a href="http://v.youku.com/v_show/id_XNDc5NTAwMDM2.html" class="list-group-item" style="color:#F90">演示视频链接(IOS版)</a>
-                <a href="http://v.youku.com/v_show/id_XNzE4MzIwMDU2.html" class="list-group-item" style="color:#F90">演示视频链接(Android版)</a>
+                <a href="" class="list-group-item" style="color:#F90"><span class="glyphicon glyphicon-arrow-down"></span> 边侧滑动框展示</a>
             </div>
             </div>
         </div>
-    </div>
+    
 </main>
 <footer>
     
