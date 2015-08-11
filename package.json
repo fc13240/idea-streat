@@ -1,0 +1,38 @@
+{
+  "name": "idea-streat",
+  "version": "1.0.0",
+  "description": "创意街项目网站",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJjie/idea-streat.git"
+  },
+  "keywords": [
+    "创意街，哈工大"
+  ],
+  "author": "JJjie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JJjie/idea-streat/issues"
+  },
+  "homepage": "https://github.com/JJjie/idea-streat#readme",
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "mysql": "~2.8.0",
+    "morgan": "*",
+    "express-session": "*",
+    "cookie-parser": "*",
+    "serve-static": "*",
+    "multer": "*",
+    "body-parser": "*",
+  }
+}
