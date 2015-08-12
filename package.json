@@ -33,6 +33,6 @@
     "cookie-parser": "*",
     "serve-static": "*",
     "multer": "*",
-    "body-parser": "*",
+    "body-parser": "*"
   }
 }
