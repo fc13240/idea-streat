@@ -25,17 +25,7 @@ app.use(multer({
 	}
 }));
 app.use(cookieParser());
-app.use(session({
-	secret: consts.app.secret,
-	store: new mongoStore({
-		db: "DaiGouBang"
-	},function(){
-		debug.log("Session store has connected to MongoDB");
-	}),
-	cookie: {
-		maxAge:86400000
-	}
-}));
+
 app.use(function(req,res,next){
 	res.sendf=function(file,type,callback){
 		res.sendFile(file,{
