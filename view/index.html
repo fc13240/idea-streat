@@ -1,161 +1,141 @@
-﻿<!doctype>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
-	<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="keywords" content="创意街,HIT网络与新媒体建设部,哈工大团委,哈工大,哈尔滨工业大学" />
-  <meta name="author" content="胡文杰,黄渝光,张晶尧" />
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="MobileOptimized" content="320" />
-
-  <link rel="icon" href="images/favicon.ico" mce_href="favicon.ico" type="image/x-icon">
-  <link rel="shortcut icon" href="image/favicon.ico" mce_href="favicon.ico" type="image/x-icon">
-  
-  <title>创意街</title>
-	<link href="css/bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-  <script>
-     var _hmt = _hmt || [];
-  </script>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="Shortcut Icon" href=images/icon.png>
+    <title>创意街</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="css/bootstrap.css">
 	</head>
-	<body class="home-template custom-bg" >
-    <nav class="navbar navbar-wi" role="navigation" style="margin: 0px; padding: 0px;">
+	<body>
+    <nav class="navbar navbar-inverse" style="margin-bottom:0px">
       <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-        <!--在移动端页面的展示-->
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#global-navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <!--在电脑大屏幕上的展示-->
-              <div class=" navbar-collapse collapse">
-                <ul class="nav navbar-nav" >
-                  <li><a class="navbar-brand" href="#">Idea Street</a></li>
-                  <li><a href="#">首页</a></li>
-                  <li><a href="submit.html">创意提交</a></li>
-         		</ul>
-          		<ul class="nav navbar-nav navbar-right">
-                    <!--<li><a href="#">注册</a></li>	-->
-					<li><a href="#">登录</a></li>		
-				</ul>
-          </div>
-      </div>
-        
-   </nav>
-        <img src="images/header创意街副本.jpg" style="width:100%">
-
-        <div class="jumbotron" style="background-image: url(images/idea-homepage.jpg); background-repeat: repeat-x; background-position-x: 0%; " >
-            <div class="" id="logo">
-                <h1 class="wi_title" style="color:antiquewhite">
-                    创 意 街
-                </h1>
-            </div>
-            <div align="left">
-                <p style="margin-left:300px">
-                    <b>你还在抱怨什么</b>
-                </p>
-                <p style ="margin-left:800px">
-                    你还在渴望什么<br />
-                </p>
-                <p style="margin-left:200px">
-                    尽管发挥自己的想象<br /><br />
-                </p>
-                <p style="margin-left:900px">
-                    <b>让互联网充分丰富我们的大学人生</b>
-                </p>
-            </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Idea Street</a>
         </div>
-<main id="main" class="container" role="main">
-    <div class="row">
-        <div class="col-sm-9 col-sm-push-1">
-          <div id="card1" class="panel"> 
-                <div class="col-xs-3" >
-                  <img class="nexus5" src="g" />
-                  <div id="screen-pic-div">
-                     <ul id="screen-pic-ul">
-                       <li><img src="" style="width:100%"></li>
-                       <li><img src="" style="width:100%"></li>
-                       <li><img src="" style="width:100%"></li>
-                       <li><img src="" style="width:100%"></li>
-                     </ul>
-                  </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span><span class="sr-only">(current)</span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-star"> 周五佳</span></a></li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="发现点子">
+              
+            </div>
+            <button type="submit"  class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">提交创意</a></li>
+            <li><a href="#">登录</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <img src="images/header.jpg" style="width:100%">
+    <img src="images/idea-homepage.png" style="width:100%;margin-bottom:10px">
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><b id="ideaTitle"></b>——<small id="ideaContributor"></small></h4>
                 </div>
-
-                   <div class="col-xs-8">
-                   <div class="banner-info">
-                       <h1>全新九键 飞享云端</h1>
-                          <h4 class="text-muted">追求极致输入体验，WI从未停止脚步。</h4>
+                <div class="modal-body">
+                    <div class="thumbnail">
+                        <img id="ideaImg" src="" style="height:150px;width:150px;" alt="此处应有图片">
+                        <div class="caption">
+                            <h4>
+                                <b id="ideaDetails"></b>
+                            </h4>
+                        </div>
                     </div>
-                </div> 
-            </div>
-            
-            <div id="card2" class="panel"> 
-                <div class="col-xs-3">
-                  <img class="nexus5" src=""/>
-                  </div>
-
-                   <div class="col-xs-8">
-                   <div class="banner-info">
-                       <h1>笑脸模式 微笑为您</h1>
-                          <h4 class="text-muted">长按笑脸键，更多手势，快捷编辑。</h4>
-                  </div>
-                </div> 
-              </div>
-
-           <div id="card3" class="panel">
-                <div class="col-xs-3"> 
-                  <img class="nexus5" src="" /> 
-                  </div>
-
-                   <div class="col-xs-8">
-                   <div class="banner-info">
-                       <h1>滑动键盘 移动光标</h1>
-                          <h4 class="text-muted">只需滑动键盘，光标移动、选词更随意。</h4>
-                    </div>
-                </div> 
-            </div>
- 
-            <div id="card4" class="panel"> 
-                <div class="col-xs-4" style="margin-top:3%">
-                  <img src="" style="width:50%" />
-                  <h4>夜间模式 保护视力</h4>
-                  </div>
-                  <div class="col-xs-4" style="margin-top:3%">
-                  <img src="" style="width:50%" />
-                  <h4>自定义键盘、字体尺寸</h4>
-                  </div>
-                  <div class="col-xs-4" style="margin-top:3%">
-                  <img src="" style="width:50%" /> 
-                  <h4>多套皮肤 随意切换</h4>
-                  </div>
-                  <div>
-                   <h1>更多创意功能，等你下载试用！</h1>
-                   </div>
-            </div>
-            </div>
-
-            <div class="col-sm-2 col-sm-push-1">
-            <div class="list-group tag-sidebar">
-                <a href="" class="list-group-item" style="color:#F90"><span class="glyphicon glyphicon-arrow-down"></span> 边侧滑动框展示</a>
-            </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-like"><span id="ideaSupportNum" class="glyphicon glyphicon-thumbs-up"></span></button>
+                    <button type="button" class="btn btn-dislike"><span id="ideaNonSupportNum" class="glyphicon glyphicon-thumbs-down"></span></button>
+                </div>
             </div>
         </div>
-    
-</main>
-<footer>
-    
-</footer>
-    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-      document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe472a36b11e346c2a7a4a6dee25ba4a6' type='text/javascript'%3E%3C/script%3E"));
+    </div>
+
+    <!--idea exhibition-->
+    <script>
+        var ideaT = "ideaTitle";
+        var ideaC = "ideaContributor";
+        var ideaI = "ideaImg";
+        var ideaD = "ideaDetails";
+        var ideaS = "ideaSupportNum";
+        var ideaN = "ideaNonSupportNum";
+        for (var i=0;i<ideaAll.length;i++)
+        {
+            //主页显示idea，包含主题（标题）、赞数、踩数、图片、贡献人。但不包含idea详情，详情于模态框显示
+            document.write(
+                '<div class="container-fluid">'
+        + '<div class="col-sm-3">'
+            +'<div class="thumbnail">'
+                +'<img src="' + ideaAll[i].image_url + '" style="height:150px;width:150px;" alt="此处应有图片">'
+                +'<div class="caption">'
+                    +'<h4>'
+                        + '<b>主题：' + ideaAll[i].title + '</b>'
+                    +'</h4>'
+                    +'<div class="text">'
+                        +'<b>'
+                            + '<span class="glyphicon glyphicon-thumbs-up" style="color: #CC3300;">' + ideaAll[i].supportNum.toString + '</span>'
+                            + '<span class="glyphicon glyphicon-thumbs-down">' + ideaAll[i].nonSupportNum.toString + '</span>'
+                        +'</b>'
+                    +'</div>'
+                    + '<div><small>' + ideaAll[i].contributor + '</small></div>'
+                    +'<p>'
+                        + '<button onclick="getElementById('+ideaT+').innerHTML=' + ideaAll[i].title
+                        + '; getElementById('+ideaC+').innerHTML=' + ideaALL[i].contributor
+                        + '; getElementById('+ideaI+').src=' + ideaAll[i].img_url
+                        + '; getElementById('+ideaD+').innerHTML=' + ideaAll[i].details
+                        + '; getElementById('+ideaS+').innerHTML=' + ideaAll[i].supportNum.toString
+                        + '; getElementById('+ideaN+').innerHTML=' + ideaAll[i].nonSupportNum.toString
+                        + ';" class="btn btn-info" role="button" data-toggle="modal" data-target="#myModal">查看全部 &raquo;</button>'
+                    +'</p>'
+                +'</div>'
+            +'</div>'
+        +'</div>'
+    +'</div>'
+                );
+        }
     </script>
+
+    <!--footer-->
+    <footer>
+    <div class="container">
+        <hr style="color:gainsboro"/>
+        <div class="row" style="color:darkgrey">
+            <div class="text-left col-xs-8">
+                <p>
+                    © student.hit.edu.cn. 哈工大校团委 2005-2015
+                </p>
+            </div>
+            <div class="text-right col-xs-4">
+                <p>
+                    <strong>Powered by </strong>胡文杰
+                </p>
+            </div>
+        </div>  
+    </div>
+    </footer>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 
 	</body>
 </html>
